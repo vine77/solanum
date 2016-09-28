@@ -8,9 +8,9 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
-    "start": "ember server",
-    "test": "ember test"
+    "build": "ember electron:package",
+    "start": "ember electron",
+    "test": "ember electron:test"
   },
   "repository": "",
   "engines": {
@@ -49,7 +49,6 @@
   },
   "main": "electron.js",
   "ember-electron": {
-    "WHAT IS THIS?": "Please see the README.md",
     "copy-files": [
       "electron.js",
       "package.json"
