@@ -1,0 +1,8 @@
+<h1>Pomodoros</h1>
+<ul>
+  {{#each model as |pomodoro|}}
+    <li>{{pomodoro.title}}: {{pomodoro.done}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
